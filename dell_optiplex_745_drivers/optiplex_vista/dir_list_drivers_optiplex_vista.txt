@@ -1,0 +1,7 @@
+1	Analog-Devices_ADI-198x-Inte_A01_R243725.exe
+2	CW1337A0.exe
+3	O745-264.exe
+4	R148017.EXE
+5	R161008.EXE
+6	R161013.EXE
+7	dir_list_drivers_optiplex_vista.txt

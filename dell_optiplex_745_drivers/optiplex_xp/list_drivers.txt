@@ -1,0 +1,44 @@
+8 files
+1       System utilities        R149166.EXE (3MB)
+2       Audio                           R243724.exe (11MB)
+3       Video                           R189424.exe (17MB)
+4       Network                         R132312.EXE (7MB), 
+					R161013.EXE (11MB), 
+					R161008.EXE (5MB)
+5       Bios                            O745-264.exe (703KB)
+6       Diagnostics                     CW1337A0.exe (3MB)
+
+---------------------------------------------------------------
+12:43 2012/02/24
+1       System utilities        ~R149166.EXE (3MB)
+2       Audio                           *R243724.exe (11MB)
+3       Video                           *R189424.exe (17MB)
+4       *Network                         *R132312.EXE (7MB), *R161013.EXE (11MB), *R161008.EXE (5MB)
+5       Bios                            *O745-264.exe (703KB)
+6       Diagnostics                     ~CW1337A0.exAe (3MB)	=> "Update an existing... partition" ~~> "No Diagnostic Utility Partition..."
+
+
+---------------------------------------------------------------
+16:42 2012/02/26
+
+1       System utilities        ~R149166.EXE (3MB)
+2       Audio                           *R243724.exe (11MB)
+3       Video                           *R189424.exe (17MB)
+4       Network                         *R132312.EXE (7MB), 
+					*R161013.EXE (11MB), 
+					*R161008.EXE (5MB)
+5       Bios                            O745-264.exe (703KB)
+6       Diagnostics                     ~CW1337A0.exe (3MB)
+
+---------------------------------------------------------------
+19:01 2012/02/27
+
+1       System utilities        R149166.EXE (3MB)
+2       Audio                           *R243724.exe (11MB)
+3       Video                           *R189424.exe (17MB)
+4       Network                         *R132312.EXE (7MB), 
+					*R161013.EXE (11MB), 
+					*R161008.EXE (5MB)
+5       Bios                            O745-264.exe (703KB)
+6       Diagnostics                     CW1337A0.exe (3MB)
+======================EOF=======================
