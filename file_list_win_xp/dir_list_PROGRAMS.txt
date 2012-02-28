@@ -1,0 +1,23 @@
+Astonsoft
+Baidu
+borland
+DAEMON Tools Lite
+dir_list_PROGRAMS.txt
+Downloads へのショートカット.lnk
+Git
+Java
+Java~
+Lhaplus
+MinGW
+MuseScore
+pleiades_e3_7_ultimate
+Python266
+ruby-1.8.7-p330-i386-mswin32
+sakura2-0-4-0
+STOR_PROGRAMS
+TortoiseSVN
+TortoiseSVN へのショートカット.lnk
+unetbootin-windows-568.exe
+VLC
+VMware
+VMware~

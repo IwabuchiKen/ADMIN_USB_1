@@ -1,0 +1,30 @@
+20120225-008-i32.exe
+20120225-008-v5i32.exe
+20120225-008-x86.exe
+BaiduType_Setup_Light.exe
+cdbxp_setup_4.4.0.2905.exe
+chromeinstall-6u31 (1).exe
+chromeinstall-6u31.exe
+DeepBurner1.exe
+dotNetFx40_Full_setup.exe
+download_realplayer
+DTLite4453-0297.exe
+Git-1.7.8-preview20111206.exe
+initrd.gz
+IwabuchiKen-nbp_new_work_win_xp-7a916d4.zip
+jdk-6u25-javafx-1_3_1-windows-i586.exe
+knoppix_v6.7.1CD_20110914-20111018 (1).iso
+LanguagePack_1.7.5.22551-win32-ja.msi
+MuseScore-1.1.exe
+pleiades-e3.7-ultimate-jre_20110924
+pleiades-e3.7-ultimate-jre_20110924.zip
+python-2.6.6.msi
+syslinux-4.04.zip
+ubuntu-10.10-desktop-i386 (1).iso
+unetbootin-windows-568 (1).exe
+vlc-2.0.0-win32.exe
+WindowsXP-KB932823-v3-x86-JPN (1).exe
+WindowsXP-KB932823-v3-x86-JPN.exe
+wubi_10.04.4
+wubi_10.10
+wubi_11.04

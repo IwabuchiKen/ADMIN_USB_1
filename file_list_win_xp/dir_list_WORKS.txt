@@ -1,0 +1,8 @@
+DOWNLOADS
+Google Chrome.lnk
+PROGRAMS
+Python266
+STATIONARY
+STOR
+WORKSPACES
+コマンド プロンプト.lnk
