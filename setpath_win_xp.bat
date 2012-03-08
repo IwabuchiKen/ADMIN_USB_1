@@ -25,26 +25,54 @@ rem 	goto end
 rem )
 
 REM ************************************
+REM * Set variables
+REM ************************************
+set WORKS_HOME=C:\WORKS
+set GIT_HOME_BIN=C:\WORKS\PROGRAMS\Git\bin
+set NBP_HOME=C:\WORKS\WORKSPACES\G_nbp_new
+set PYTHON_HOME=C:\WORKS\PROGRAMS\Python266
+set JAVA_HOME=C:\WORKS\PROGRAMS\Java
+set JAVA_HOME_BIN=%JAVA_HOME%\jdk1.6.0_25\bin
+set MINGW_HOME_BIN=C:\WORKS\PROGRAMS\MinGW\bin;
+set BCC_HOME=C:\WORKS\PROGRAMS\borland\bcc55
+set BCC_HOME_BIN=C:\WORKS\PROGRAMS\borland\bcc55\Bin
+
+REM set PATH_TO_ALL=%GIT_HOME_BIN%;%NBP_HOME%;%PYTHON_HOME%;%JAVA_HOME%;%JAVA_HOME_BIN%;%MINGW_HOME_BIN%
+
+REM ************************************
 REM * Set paths
 REM ************************************
-REM echo set path=%%path%%;C:\WORKS\PROGRAMS\Git\bin
+echo set path=%%path%%;%WORKS_HOME%
+set path=%path%;%WORKS_HOME%
 
-set JAVA_HOME=C:\WORKS\PROGRAMS\Java
-set JAVA_HOME_BIN=C:\WORKS\PROGRAMS\Java\bin
-set PYTHON_HOME=C:\WORKS\PROGRAMS\Python266
-set NBP_HOME=C:\WORKS\WORKSPACES\G_nbp_new
-set ANT_HOME=C:\WORKS\PROGRAMS\apache-ant-1.8.3
-set ANT_HOME_BIN=%ANT_HOME%\bin
-set ADMIN_HOME=C:\WORKS\WORKSPACES\ADMIN_USB_1
+echo set path=%%path%%;%GIT_HOME_BIN%
+set path=%path%;%GIT_HOME_BIN%
 
-set path=%path%;C:\WORKS\PROGRAMS\Git\bin;C:\WORKS\PROGRAMS\MinGW\bin;
-set path=%path%;%JAVA_HOME_BIN%
-set path=%path%;%PYTHON_HOME%;
+echo set path=%%path%%;%NBP_HOME%
 set path=%path%;%NBP_HOME%
-set path=%path%;%ANT_HOME%;%ANT_HOME_BIN%
-set path=%path%;%ADMIN_HOME%
 
-echo Path set.
+echo set path=%%path%%;%PYTHON_HOME%
+set path=%path%;%PYTHON_HOME%
 
+echo set path=%%path%%;%JAVA_HOME%
+set path=%path%;%JAVA_HOME%
+
+echo set path=%%path%%;%JAVA_HOME_BIN%
+set path=%path%;%JAVA_HOME_BIN%
+
+echo set path=%%path%%;%MINGW_HOME_BIN%
+set path=%path%;%MINGW_HOME_BIN%
+
+echo set path=%%path%%;%BCC_HOME_BIN%
+set path=%path%;%BCC_HOME_BIN%
+
+echo set path=%%path%%;%BCC_HOME%
+set path=%path%;%BCC_HOME%
+
+rem set path=%path%;%NBP_HOME%
+
+REM ************************************
+REM * end
+REM ************************************
 :end
 REM ============ EOF ===================
