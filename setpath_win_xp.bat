@@ -36,6 +36,9 @@ set JAVA_HOME_BIN=%JAVA_HOME%\jdk1.6.0_25\bin
 set MINGW_HOME_BIN=C:\WORKS\PROGRAMS\MinGW\bin;
 set BCC_HOME=C:\WORKS\PROGRAMS\borland\bcc55
 set BCC_HOME_BIN=C:\WORKS\PROGRAMS\borland\bcc55\Bin
+set MINGW_HOME=C:\WORKS\PROGRAMS\MinGW
+set MINGW_HOME_BIN=%MINGW_HOME%\bin
+set GIT_IGNORE=C:\WORKS\WORKSPACES\programming_1\G06_gitignore
 
 REM set PATH_TO_ALL=%GIT_HOME_BIN%;%NBP_HOME%;%PYTHON_HOME%;%JAVA_HOME%;%JAVA_HOME_BIN%;%MINGW_HOME_BIN%
 
@@ -68,6 +71,15 @@ set path=%path%;%BCC_HOME_BIN%
 
 echo set path=%%path%%;%BCC_HOME%
 set path=%path%;%BCC_HOME%
+
+echo set path=%%path%%;%MINGW_HOME%
+set path=%path%;%MINGW_HOME%
+
+echo set path=%%path%%;%MINGW_HOME_BIN%
+set path=%path%;%MINGW_HOME_BIN%
+
+echo set path=%%path%%;%GIT_IGNORE%
+set path=%path%;%GIT_IGNORE%
 
 rem set path=%path%;%NBP_HOME%
 
