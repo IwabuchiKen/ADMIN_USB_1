@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="bt1">Button ${varName} = (Button) findViewById(R.id${id});&#13;
+${varName}.setTag("${tagName}");&#13;
+${varName}.setOnClickListener(this);&#13;
+</template></templates>

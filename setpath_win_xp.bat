@@ -18,11 +18,18 @@ REM echo off
 REM ************************************
 REM * No argument => show usage
 REM ************************************
-rem if "%1"=="" (
-rem 	echo ^<Usage^>
-rem 	echo   setpath_win_xp
-rem 	goto end
-rem )
+if "%1"=="-h" (
+	echo ^<Usage^>
+	echo   setpath_win_xp [option]
+	echo  ^<Options^>
+	echo   -h
+	echo   -help
+	echo   --help
+	echo   help Show help
+	echo   -r
+	echo   -redmine Start Redmine and WEBrick
+	goto end
+)
 
 REM ************************************
 REM * Set variables
@@ -44,6 +51,9 @@ set CLASSPATH=%JAVA_HOME%;%CLASSPATH%
 set LUA_HOME_BIN=C:\WORKS\PROGRAMS\lua-5.2_Win32_bin
 set SAKURA_BIN=C:\WORKS\PROGRAMS\sakura
 set SQLITE3_HOME=C:\WORKS\PROGRAMS\sqlite
+set SUBVERSION_HOME_BIN=C:\WORKS\PROGRAMS\subversion_166\bin
+
+set WORKSPACES_ANDROID_HOME=C:\WORKS\WORKSPACES_ANDROID
 
 REM set PATH_TO_ALL=%GIT_HOME_BIN%;%NBP_HOME%;%PYTHON_HOME%;%JAVA_HOME%;%JAVA_HOME_BIN%;%MINGW_HOME_BIN%
 
@@ -98,7 +108,26 @@ set path=%path%;%SAKURA_BIN%
 echo set path=%%path%%;%SQLITE3_HOME%
 set path=%path%;%SQLITE3_HOME%
 
+echo set path=%%path%%;%SUBVERSION_HOME_BIN%
+set path=%path%;%SUBVERSION_HOME_BIN%
+
+echo cd %WORKSPACES_ANDROID_HOME%
+echo git clone git@github.com:iwabuchiken/mylib.git
+
+
 rem set path=%path%;%NBP_HOME%
+
+REM ************************************
+REM * Extras
+REM ************************************
+rem set TEXT=cd C:\WORKS\WORKSPACES_ANDROID\RedmineTest1
+if "%1"=="-r" (
+	echo Starting: C:\WORKS\WORKSPACES\start_redmine.bat
+	call C:\WORKS\WORKSPACES\start_redmine.bat
+	echo Finished: C:\WORKS\WORKSPACES\start_redmine.bat
+)
+
+rem call C:\WORKS\WORKSPACES\start_redmine.bat
 
 REM ************************************
 REM * end

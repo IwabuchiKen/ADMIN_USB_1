@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="generate method" enabled="true" name="f3">public static ${return_type} ${enclosing_method}(${enclosing_method_arguments}) {&#13;
+&#13;
+}//public static ${return_type} ${enclosing_method}()</template></templates>

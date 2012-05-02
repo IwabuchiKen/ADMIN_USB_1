@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.python.pydev.editor.templates.python" deleted="false" description="" enabled="true" name="f1">def ${funcName}(${param}):&#13;
+	${cursor}&#13;
+#//def ${funcName}(${param})</template></templates>

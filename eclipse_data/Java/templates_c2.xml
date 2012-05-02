@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="c2">/**********************************************&#13;
+* &lt;name&gt; ${methodName}&#13;
+* &lt;description&gt;  ${desc}&#13;
+* &lt;parameter&gt;&#13;
+*	${paramName1}:${typeName1}&#13;
+*	${paramName2}:${typeName2}&#13;
+* &lt;Return value&gt;&#13;
+*	${valueName}:${typeName3}&#13;
+**********************************************/</template></templates>

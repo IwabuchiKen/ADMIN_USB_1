@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="java-statements" deleted="false" description="条件付き while ループ" enabled="true" id="org.eclipse.jdt.ui.templates.while_condition" name="wh">while (${condition:var(boolean)}) {
+	${line_selection}${cursor}
+}//while (${condition:var(boolean)})</template></templates>

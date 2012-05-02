@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="f4">${access} ${scope} ${return_type} ${enclosing_method}(${enclosing_method_arguments}) {&#13;
+	${cursor}&#13;
+}//${access} ${scope} ${return_type} ${enclosing_method}(${enclosing_method_arguments})</template></templates>

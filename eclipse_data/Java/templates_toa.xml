@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="toa">// debug&#13;
+			Toast.makeText(${context}, ${text}, Toast${attribute}).show();</template></templates>

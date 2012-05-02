@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="" enabled="true" name="cl">class ${class_name} {&#13;
+	${cursor};	&#13;
+}//class ${class_name}&#13;
+</template></templates>
