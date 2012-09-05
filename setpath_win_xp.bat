@@ -47,14 +47,20 @@ set MINGW_HOME=C:\WORKS\PROGRAMS\MinGW
 set MINGW_HOME_BIN=%MINGW_HOME%\bin
 set GIT_IGNORE=C:\WORKS\WORKSPACES\programming_1\G06_gitignore
 rem set RUBY_HOME_BIN=C:\Documents and Settings\iwabuchiken\.pik\rubies\Ruby-192-p136\bin
-set RUBY_HOME_BIN=C:\.pik\rubies\Ruby-192-p136\bin
+rem set RUBY_HOME_BIN=C:\.pik\rubies\Ruby-192-p136\bin
+rem set RUBY_HOME_BIN=C:\WORKS\PROGRAMS\ruby_192_136\bin
 set CLASSPATH=%JAVA_HOME%;%CLASSPATH%
 set LUA_HOME_BIN=C:\WORKS\PROGRAMS\lua-5.2_Win32_bin
 set SAKURA_BIN=C:\WORKS\PROGRAMS\sakura
 set SQLITE3_HOME=C:\WORKS\PROGRAMS\sqlite
 set SUBVERSION_HOME_BIN=C:\WORKS\PROGRAMS\subversion_166\bin
+set PIK_BIN=C:\WORKS\PROGRAMS\pik
+
+set PYTHONPATH=C:\WORKS\PROGRAMS\Python266\Scripts
 
 set WORKSPACES_ANDROID_HOME=C:\WORKS\WORKSPACES_ANDROID
+
+set FREE_MIND_HOME=C:\WORKS\PROGRAMS\FreeMind
 
 REM set PATH_TO_ALL=%GIT_HOME_BIN%;%NBP_HOME%;%PYTHON_HOME%;%JAVA_HOME%;%JAVA_HOME_BIN%;%MINGW_HOME_BIN%
 
@@ -112,9 +118,27 @@ set path=%path%;%SQLITE3_HOME%
 echo set path=%%path%%;%SUBVERSION_HOME_BIN%
 set path=%path%;%SUBVERSION_HOME_BIN%
 
+echo set path=%%path%%;%PIK_BIN%
+set path=%path%;%PIK_BIN%
+
+echo set path=%%path%%;%PYTHONPATH%
+set path=%path%;%PYTHONPATH%
+
+echo set path=%%path%%;%FREE_MIND_HOME%
+set path=%path%;%FREE_MIND_HOME%
+
+
+
+REM ************************************
+REM * Display-only items
+REM ************************************
+echo ------------------------------------------
 echo cd %WORKSPACES_ANDROID_HOME%
 echo git clone git@github.com:iwabuchiken/mylib.git
-
+echo cd C:\WORKS\WORKSPACES_ANDROID\Learn_android\MindMap
+echo cd C:\WORKS\WORKSPACES_APTANA
+echo cd %WORKSPACES_ANDROID_HOME%\ChinesePlayGround
+echo ------------------------------------------
 
 rem set path=%path%;%NBP_HOME%
 
