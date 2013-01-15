@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Used for constructor codes" enabled="true" name="reg4">\t[a-zA-Z]+ (.+);&#13;
+\tthis\.$$1 = $$1;</template></templates>
