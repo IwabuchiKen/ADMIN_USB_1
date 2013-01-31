@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="Comment for debugging codes" enabled="true" name="dd">//debug
+std::cout &lt;&lt; "[" &lt;&lt; __FILE__ &lt;&lt; ":" &lt;&lt; __LINE__ &lt;&lt; "]: "
+			&lt;&lt; ${cursor} &lt;&lt; std::endl;
+///</template></templates>

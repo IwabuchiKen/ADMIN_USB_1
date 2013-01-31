@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="Comment for debug: Enter/exit function" enabled="true" name="c1">		//debug
+		std::cout &lt;&lt; std::endl;
+		std::cout &lt;&lt; "[" &lt;&lt; __FILE__ &lt;&lt; ":" &lt;&lt; __LINE__ &lt;&lt; "]: "
+					&lt;&lt; "*************** Enter: ${func_name} ***************" &lt;&lt; std::endl;
+		///
+		${cursor}
+		//debug
+		std::cout &lt;&lt; "[" &lt;&lt; __FILE__ &lt;&lt; ":" &lt;&lt; __LINE__ &lt;&lt; "]: "
+					&lt;&lt; "*************** Exit: ${func_name} ****************" &lt;&lt; std::endl;
+		std::cout &lt;&lt; std::endl;
+		///
+</template></templates>

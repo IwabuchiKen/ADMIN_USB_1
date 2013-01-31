@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="org.eclipse.cdt.ui.text.templates.c" deleted="false" description="Define MYDEBUG in the source file" enabled="true" name="x2">//debug ///////////////////////////////////
+#ifndef MYDEBUG
+	#define MYDEBUG 0
+#endif
+
+#ifndef DEBUG_${file}
+	#define DEBUG_${file} 1
+#endif
+///////////////////////////////////////////
+${cursor}</template></templates>
