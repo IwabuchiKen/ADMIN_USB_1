@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="pri">System.out.println(${word_selection}${});${cursor}</template></templates>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="" enabled="true" name="pri">System.out.println(&#13;
+	"[" + Thread.currentThread().getStackTrace()[1].getLineNumber()&#13;
+		+ ":" + Thread.currentThread().getStackTrace()[1].getMethodName()&#13;
+		+ "]" + &#13;
+	"${message}");${cursor}</template></templates>
